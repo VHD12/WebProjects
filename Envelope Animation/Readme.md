@@ -1,5 +1,5 @@
 Envelope Animation
-NEW folder contains the html, css and js files
+"NEW" folder contains the html, css and js files
 
 ABOUT
 HTML, CSS and JS is implemented
