@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Web</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src='script.js'></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="top-nav-bar">
+        <div class="search-box">
+            <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+            <i class="fa fa-times" id="close-btn"onclick="closemenu()"></i>
+           
+            <input type="text" class="form-control">
+            <span class="input-group-text"><i class="fa fa-search" id="box"></i></span>
+            <a href="#"><img src="C:\Users\vires\Websites\E-Commerce Website\images.jpg" class="logo"></a>
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li><a href="#"><i class="fa fa-shopping-basket"></i>cart</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Log In</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <section class="header">
+        <div class="side-menu" id="side-menu">
+            <ul>
+                <li>on sale<i class="fa fa-angle-right"></i>
+                <ul>
+                    <li>Sub Menu-1</li>
+                    <li>Sub Menu-1</li>
+                    <li>Sub Menu-1</li>
+                    <li>Sub Menu-1</li>
+                </ul>
+                </li>
+                <li>Mobiles<i class="fa fa-angle-right"></i>
+                <ul>
+                    <li>Sub Menu-2</li>
+                    <li>Sub Menu-2</li>
+                    <li>Sub Menu-2</li>
+                    <li>Sub Menu-2</li>
+                </ul>
+                </li>
+                <li>Computers<i class="fa fa-angle-right"></i>
+                <ul>
+                    <li>Sub Menu-3</li>
+                    <li>Sub Menu-3</li>
+                    <li>Sub Menu-3</li>
+                    <li>Sub Menu-3</li>
+                </ul></li>
+                <li>Electronics<i class="fa fa-angle-right"></i>
+                    <ul>
+                        <li>Sub Menu-4</li>
+                        <li>Sub Menu-4</li>
+                        <li>Sub Menu-4</li>
+                        <li>Sub Menu-4</li>
+                    </ul></li>
+                <li>Home appliances<i class="fa fa-angle-right"></i>
+                    <ul>
+                        <li>Sub Menu-5</li>
+                        <li>Sub Menu-5</li>
+                        <li>Sub Menu-5</li>
+                        <li>Sub Menu-5</li>
+                    </ul>
+                </li>
+                <li>Fashion<i class="fa fa-angle-right"></i>
+                    <ul>
+                        <li>Sub Menu-6</li>
+                        <li>Sub Menu-6</li>
+                        <li>Sub Menu-6</li>
+                        <li>Sub Menu-6</li>
+                    </ul></li>
+                <li>Books<i class="fa fa-angle-right"></i>
+                    <ul>
+                        <li>Sub Menu-9</li>
+                        <li>Sub Menu-9</li>
+                        <li>Sub Menu-9</li>
+                        <li>Sub Menu-9</li>
+                    </ul></li>
+                <li>Movies and Music<i class="fa fa-angle-right"></i>
+                    <ul>
+                        <li>Sub Menu-10</li>
+                        <li>Sub Menu-10</li>
+                        <li>Sub Menu-10</li>
+                        <li>Sub Menu-10</li>
+                    </ul></li>
+                                         
+                <li>Orders and Requests<i class="fa fa-angle-right"></i>
+                    <ul>
+                        <li>Sub Menu-7</li>
+                        <li>Sub Menu-7</li>
+                        <li>Sub Menu-7</li>
+                        <li>Sub Menu-7</li>
+                    </ul></li>
+                <li>Customer-Service<i class="fa fa-angle-right"></i>
+                    <ul>
+                        <li>Sub Menu-8</li>
+                        <li>Sub Menu-8</li>
+                        <li>Sub Menu-8</li>
+                        <li>Sub Menu-8</li>
+                    </ul></li>
+                   
+                                              
+                    
+            </ul>
+        </div>
+        <div class="slider">
+            <div id="slider" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Phones.jpg" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Home.png" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Lappy.jpg" class="d-block w-100">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="prev" onclick="$('#slider').carousel('prev')">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="next" onclick="$('#slider').carousel('next')">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+           <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            
+        </div>
+   </section>
+   <section class="featured-categories">
+       <div class="container">
+           <img src="Headphone.jpg" id="headphone">
+           <p class="bold1">Features:</p>
+            <div id="info">10 minutes of charging gives you 100 minutes of music time.</div>
+            <div id="info">Large 110mAh battery charges completely in 1.5 hours, giving a playback time of up to 12 hours
+            11.2 mm sound driver capable of producing great bass</div>
+            <div id="info">Built-in magnets: Enjoy magnetic earbuds with auto on and off feature for seamless audio connection.</div>
+            <div id="info">Three button remote: Control your music, handle phone calls and even summon Google Assistant with three tactile inline buttons
+            A premiun neckband design along with a tangle free memory metal string ensures a great experience</div>
+       </div>
+       <div class="container">
+            <img src="Watch.webp" id="watch" >
+            <p class="bold">Features:</p>
+            <div id="watchtext">With its daily activity tracker and 9 different sports modes, it will now be fun to track your journey towards health.</div>
+            <div id="watchtext">Stay alert at all times with smart notifications from your phone with vibration alerts for calls, texts, schedule reminders, alarms, & more.</div>
+            <div id="watchtext">The wellness mode of the smartwatch monitors your sleep, heart rate, blood oxygen levels as well as guides you into a meditative state when you need to relax</div>
+            <div id="watchtext">It also comes with a menstruation cycle tracker that predicts your cycle and health.</div>
+            <div id="watchtext">Its find my phone feature that will call your phone to easily locate your phone when you dont remember where you kept it</div>
+            <div id="watchtext">The 5 ATM water resistance will keep the watch safe from splashes & sweat too</div>
+            <div id="watchtext">Warranty: 1 year</div>
+            <div id="watchtext">Warranty provided by Brand/Manufacturer</div>
+        </div>
+       
+   </section>
+   
+
+<div class="container">
+    <h3>Contact Form</h3>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+    
+
+</html>
