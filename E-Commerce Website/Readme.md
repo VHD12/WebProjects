@@ -10,4 +10,4 @@ After downloading the files,
 
 STEP1: Right click on index.html and open with your internet browser
 
-STEP2: You will be able to see the website successfully
+STEP2: You will be able to see the website successfully on your browser
